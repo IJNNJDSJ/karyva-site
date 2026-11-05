@@ -1,86 +1,35 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="KARYVA accompagne les entreprises et entrepreneurs dans leur développement digital.">
-  <title>KARYVA | Agence digitale</title>
-  <link rel="stylesheet" href="style.css">
-  <script src="script.js" defer></script>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="KARYVA accompagne les entreprises avec des solutions digitales : sites web, design, marketing et e-commerce.">
+  <meta property="og:title" content="KARYVA — Agence digitale"><meta property="og:description" content="Créativité, stratégie et technologie pour développer votre présence digitale."><meta property="og:image" content="assets/karyva-logo.svg"><title>KARYVA — Agence digitale</title><link rel="icon" type="image/svg+xml" href="assets/favicon.svg"><meta name="theme-color" content="#101d32"><link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <header class="site-header">
-    <a class="logo" href="#accueil" aria-label="KARYVA, accueil">KARYVA<span>.</span></a>
-    <button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false">☰</button>
-    <nav class="navigation" aria-label="Navigation principale">
-      <a href="#accueil">Accueil</a>
-      <a href="#apropos">À propos</a>
-      <a href="#services">Services</a>
-      <a href="#contact">Contact</a>
-    </nav>
-  </header>
-
-  <main>
-    <section class="hero" id="accueil">
-      <div class="hero-content">
-        <p class="eyebrow">AGENCE DIGITALE • CRÉATIVITÉ • INNOVATION</p>
-        <h1>Vos idées méritent une <span>présence digitale forte.</span></h1>
-        <p class="hero-text">KARYVA aide les entreprises et les entrepreneurs à développer leur image, leur visibilité et leurs projets en ligne.</p>
-        <div class="hero-actions">
-          <a class="button button-primary" href="#services">Découvrir nos services <span aria-hidden="true">↗</span></a>
-          <a class="button button-ghost" href="#contact">Parlons de votre projet</a>
-        </div>
-        <div class="hero-note"><span class="status-dot"></span> Des idées claires. Des solutions utiles. Des résultats durables.</div>
-      </div>
-      <div class="hero-art" aria-label="Illustration décorative abstraite">
-        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
-        <div class="art-card art-card-main"><span class="art-label">KARYVA STUDIO</span><div class="art-symbol">K<span>.</span></div><p>Créons quelque chose de remarquable.</p></div>
-        <div class="art-card art-card-small"><span class="mini-icon">✳</span><div><strong>Créativité</strong><small>Au cœur de chaque projet</small></div></div>
-        <div class="art-badge">IDÉES<br>EN ACTION<span>↗</span></div>
-      </div>
-    </section>
-
-    <section class="intro section" id="apropos">
-      <div class="section-kicker">01 / À PROPOS</div>
-      <div class="intro-copy">
-        <h2>Nous transformons les idées en <span>opportunités numériques.</span></h2>
-        <p>KARYVA est un projet d’agence digitale qui rassemble des compétences créatives et techniques pour accompagner les marques, les entreprises et les entrepreneurs. Nous construisons progressivement des solutions adaptées à chaque besoin.</p>
-      </div>
-    </section>
-
-    <section class="services section" id="services">
-      <div class="section-heading">
-        <div><div class="section-kicker">02 / NOS COMPÉTENCES</div><h2>Des services pour <span>aller plus loin.</span></h2></div>
-        <p>Une approche créative et pratique pour donner vie à vos projets digitaux.</p>
-      </div>
-      <div class="service-grid">
-        <article class="service-card"><div class="service-number">01</div><div class="service-icon">✳</div><h3>Design graphique</h3><p>Logos, affiches et supports visuels pour construire une identité de marque cohérente.</p><a href="#contact" aria-label="Demander un service de design graphique">Discutons du projet ↗</a></article>
-        <article class="service-card"><div class="service-number">02</div><div class="service-icon">⌘</div><h3>Création de sites web</h3><p>Des sites modernes et adaptés pour présenter une activité et ses services sur Internet.</p><a href="#contact" aria-label="Demander un site web">Discutons du projet ↗</a></article>
-        <article class="service-card"><div class="service-number">03</div><div class="service-icon">◎</div><h3>Réseaux sociaux</h3><p>Planification de contenus et accompagnement pour développer la présence des marques.</p><a href="#contact" aria-label="Demander la gestion des réseaux sociaux">Discutons du projet ↗</a></article>
-        <article class="service-card"><div class="service-number">04</div><div class="service-icon">↗</div><h3>Marketing digital</h3><p>Des idées et des actions pour améliorer la visibilité et toucher le bon public.</p><a href="#contact" aria-label="Demander un service de marketing digital">Discutons du projet ↗</a></article>
-        <article class="service-card"><div class="service-number">05</div><div class="service-icon">▶</div><h3>Création de contenu</h3><p>Contenus visuels et vidéos conçus pour informer, attirer et engager une audience.</p><a href="#contact" aria-label="Demander un service de création de contenu">Discutons du projet ↗</a></article>
-        <article class="service-card"><div class="service-number">06</div><div class="service-icon">▣</div><h3>E-commerce & dropshipping</h3><p>Accompagnement dans la préparation de boutiques en ligne et de projets de vente.</p><a href="#contact" aria-label="Demander un accompagnement e-commerce">Discutons du projet ↗</a></article>
-        <article class="service-card"><div class="service-number">07</div><div class="service-icon">▤</div><h3>Produits numériques</h3><p>Organisation et présentation de ressources numériques : ebooks, guides et modèles.</p><a href="#contact" aria-label="Demander un service de produits numériques">Discutons du projet ↗</a></article>
-      </div>
-    </section>
-
-    <section class="contact section" id="contact">
-      <div class="contact-panel">
-        <div class="section-kicker">03 / CONTACT</div>
-        <h2>Un projet en tête ?<br><span>Construisons-le ensemble.</span></h2>
-        <p>Écrivez-nous pour présenter votre idée. Nous pourrons discuter des prochaines étapes.</p>
-        <a class="button button-primary" href="mailto:karyvabusiness@gmail.com">Contacter KARYVA ↗</a>
-        <small>Adresse de contact : karyvabusiness@gmail.com</small>
-        <a class="button button-primary" href="https://wa.me/243860543509 target="_blank" rel="noopener noreferrer">Nous contacter sur WhatsApp</a>
-      </div>
-      <div class="contact-side"><span class="contact-mark">K<span>.</span></span><p>Le numérique ouvre des possibilités. À nous de les construire.</p></div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <a class="logo" href="#accueil">KARYVA<span>.</span></a>
-    <p>© <span id="year">2026</span> KARYVA. Tous droits réservés.</p>
-    <a href="#accueil" class="back-top">Retour en haut ↑</a>
-  </footer>
-</body>
-</html>
+<header class="header"><a class="brand" href="index.html"><img class="brand-logo" src="assets/karyva-logo.svg" alt="KARYVA — Agence digitale"></a>
+<button class="menu-toggle" aria-label="Ouvrir le menu" aria-expanded="false">☰</button>
+<nav class="nav"><a class="active" href="index.html">Accueil</a><a href="services.html">Services</a><a href="articles.html">Articles</a><a class="nav-cta" href="#contact">Parlons de votre projet</a></nav></header>
+<main>
+<section class="hero">
+ <div class="hero-copy"><span class="eyebrow">AGENCE DIGITALE • KISANGANI, RDC</span><h1>Faisons grandir votre entreprise <em>dans le monde digital.</em></h1>
+ <p>KARYVA transforme vos idées en expériences digitales professionnelles : stratégie, création et présence en ligne.</p>
+ <div class="hero-actions"><a class="btn btn-primary" href="https://wa.me/243860543509" target="_blank" rel="noopener">Démarrer un projet ↗</a><a class="btn btn-light" href="services.html">Découvrir nos services</a></div>
+ <div class="hero-note"><span class="dot"></span> Des solutions créatives, pensées pour vos objectifs.</div></div>
+ <div class="hero-visual"><img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1100&q=85" alt="Espace de travail et analyse digitale"><div class="floating-card"><strong>Votre vision.</strong><span>Notre créativité.</span></div></div>
+</section>
+<section class="trust-row"><span>STRATÉGIE</span><span>CRÉATIVITÉ</span><span>TECHNOLOGIE</span><span>RÉSULTATS</span></section>
+<section class="section" id="about"><div class="section-heading"><div><span class="eyebrow">QUI SOMMES-NOUS ?</span><h2>Le digital, avec une <em>vision claire.</em></h2></div><p>KARYVA est une agence digitale qui aide les marques, entrepreneurs et organisations à mieux se présenter, communiquer et développer leurs activités en ligne.</p></div>
+ <div class="about-grid"><img class="about-img" src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1000&q=85" alt="Équipe travaillant sur un projet"><div class="about-panel"><span class="number">01 / NOTRE APPROCHE</span><h3>Des idées utiles. Des solutions concrètes.</h3><p>Nous combinons design, technologie et communication pour construire une présence digitale cohérente et professionnelle.</p><a class="text-link" href="services.html">Explorer nos expertises ↗</a></div></div>
+</section>
+<section class="section services-preview"><div class="section-heading"><div><span class="eyebrow">CE QUE NOUS FAISONS</span><h2>Nos expertises <em>digitales.</em></h2></div><a class="text-link" href="services.html">Tous nos services ↗</a></div>
+<div class="service-grid">
+ <article class="service-card"><img src="https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?auto=format&fit=crop&w=700&q=80" alt="Création de site web"><div><span>01</span><h3>Sites web</h3><p>Des sites modernes pour présenter votre activité et attirer des clients.</p></div></article>
+ <article class="service-card"><img src="https://images.unsplash.com/photo-1545235617-9465d2a55698?auto=format&fit=crop&w=700&q=80" alt="Design graphique"><div><span>02</span><h3>Design graphique</h3><p>Une identité visuelle claire, mémorable et cohérente.</p></div></article>
+ <article class="service-card"><img src="https://images.unsplash.com/photo-1557838923-2985c318be48?auto=format&fit=crop&w=700&q=80" alt="Marketing digital"><div><span>03</span><h3>Marketing digital</h3><p>Des stratégies pour développer votre visibilité et votre audience.</p></div></article>
+</div></section>
+<section class="showcase section"><div class="showcase-text"><span class="eyebrow">NOTRE ENGAGEMENT</span><h2>Votre prochaine étape commence <em>ici.</em></h2><p>Que vous lanciez une activité ou souhaitiez faire évoluer votre marque, construisons ensemble une présence digitale à votre image.</p><a class="btn btn-primary" href="https://wa.me/243860543509" target="_blank" rel="noopener">Discuter sur WhatsApp ↗</a></div><img src="https://images.unsplash.com/photo-1553877522-43269d4ea984?auto=format&fit=crop&w=1100&q=85" alt="Collaboration autour d'un projet"></section>
+<section class="section articles-preview"><div class="section-heading"><div><span class="eyebrow">LE BLOG KARYVA</span><h2>Idées pour avancer <em>dans le digital.</em></h2></div><a class="text-link" href="articles.html">Lire les articles ↗</a></div><div class="article-mini"><img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=800&q=80" alt="Ordinateur sur un bureau"><div><span class="eyebrow">CONSEILS • 5 MIN DE LECTURE</span><h3>Pourquoi votre entreprise a-t-elle besoin d’un site web ?</h3><p>Découvrez comment un site professionnel renforce votre crédibilité, présente vos services et facilite le contact avec vos clients.</p><a class="text-link" href="articles.html">Découvrir l’article ↗</a></div></div></section>
+<section class="contact-band" id="contact"><div><span class="eyebrow">UN PROJET EN TÊTE ?</span><h2>Parlons de vos ambitions.</h2><p>Présentez-nous votre idée. Nous serons heureux d'échanger avec vous.</p></div><a class="btn btn-primary" href="https://wa.me/243860543509" target="_blank" rel="noopener">Contacter KARYVA ↗</a></section>
+</main>
+<footer class="footer"><a class="brand" href="index.html"><img class="brand-logo" src="assets/karyva-logo.svg" alt="KARYVA — Agence digitale"></a><p>Agence digitale — Créativité, stratégie et technologie.</p><div class="footer-contact"><a href="https://wa.me/243860543509">WhatsApp : 086 054 3509</a><a href="mailto:karyvabusiness@gmail.com">karyvabusiness@gmail.com</a><span>Kisangani, RDC</span></div><small>© <span id="year"></span> KARYVA. Tous droits réservés.</small></footer>
+<script src="script.js"></script></body></html>
