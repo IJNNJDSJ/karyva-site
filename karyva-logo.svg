@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 150" role="img" aria-labelledby="title desc">
+<title id="title">KARYVA — Agence digitale</title><desc id="desc">Logo KARYVA bleu et bleu nuit.</desc>
+<defs><linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#4D9BFF"/><stop offset="1" stop-color="#1764C0"/></linearGradient></defs>
+<rect x="5" y="8" width="134" height="134" rx="34" fill="#101D32"/>
+<path d="M37 42c0-8 6-14 14-14h9v36l36-36h27L82 71l42 51H96L60 78v30H51c-8 0-14-6-14-14V42z" fill="url(#blue)"/>
+<path d="M82 76l27-27c7-7 18-7 25 0s7 18 0 25l-28 28" fill="none" stroke="#fff" stroke-width="9" stroke-linecap="round" opacity=".96"/>
+<text x="165" y="91" font-family="Arial,Helvetica,sans-serif" font-size="66" font-weight="800" letter-spacing="4" fill="#101D32">KARYVA</text>
+<path d="M169 111h265" stroke="#2878D0" stroke-width="4" stroke-linecap="round"/>
+<text x="169" y="137" font-family="Arial,Helvetica,sans-serif" font-size="16" font-weight="700" letter-spacing="6" fill="#667085">AGENCE DIGITALE</text>
+</svg>
